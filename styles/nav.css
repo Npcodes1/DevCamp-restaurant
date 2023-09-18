@@ -1,0 +1,122 @@
+/* Navigation */
+.navigation {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+/* Left column section */
+.navigation>.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation>.left-column>.icon {
+    margin-right: 20px;
+}
+
+.navigation>.left-column>.icon i {
+    font-size: 1.5em;
+    transform: rotate(45deg);
+}
+
+.navigation>.left-column>.contact-hours {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+
+.navigation>.left-column>.contact-hours>.hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+
+.link-wrapper>.nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #fff;
+}
+
+/* Center column section */
+
+.navigation>.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 42px;
+    width: 500px;
+}
+
+.navigation>.center-column>.banner-img {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation>.center-column>.banner-img img {
+    width: 200px;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-wrapper>.nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.link-wrapper>.nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link-wrapper>.nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/* Right column section */
+.navigation>.right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation>.right-column>.address {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.navigation>.right-column>.contact-icon {
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+.navigation>.right-column>.address a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation>.right-column>.address a:hover {
+    color: #cea135;
+}
+
+.navigation>.right-column>.contact-icon a {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.navigation>.right-column>.contact-icon a:hover {
+    color: #cea135;
+}
