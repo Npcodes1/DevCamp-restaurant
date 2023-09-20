@@ -1,5 +1,5 @@
 /* Navigation */
-.navigation {
+.navigation-wrapper {
     height: 190px;
     background-color: #11122b;
     color: #cbcbcb;
@@ -11,27 +11,27 @@
 }
 
 /* Left column section */
-.navigation>.left-column {
+.navigation-wrapper>.left-column {
     display: flex;
     align-items: center;
 }
 
-.navigation>.left-column>.icon {
+.navigation-wrapper>.left-column>.icon {
     margin-right: 20px;
 }
 
-.navigation>.left-column>.icon i {
+.navigation-wrapper>.left-column>.icon i {
     font-size: 1.5em;
     transform: rotate(45deg);
 }
 
-.navigation>.left-column>.contact-hours {
+.navigation-wrapper>.left-column>.contact-hours {
     display: grid;
     grid-template-columns: 1fr;
     gap: 5px;
 }
 
-.navigation>.left-column>.contact-hours>.hours {
+.navigation-wrapper>.left-column>.contact-hours>.hours {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: #858585;
     font-size: 0.8em;
@@ -44,19 +44,19 @@
 
 /* Center column section */
 
-.navigation>.center-column {
+.navigation-wrapper>.center-column {
     display: grid;
     grid-template-columns: 1fr;
     gap: 42px;
     width: 500px;
 }
 
-.navigation>.center-column>.banner-img {
+.navigation-wrapper>.center-column>.banner-img {
     display: flex;
     justify-content: center;
 }
 
-.navigation>.center-column>.banner-img img {
+.navigation-wrapper>.center-column>.banner-img img {
     width: 200px;
     height: 100%;
     filter: brightness(50%);
@@ -86,37 +86,37 @@
 }
 
 /* Right column section */
-.navigation>.right-column {
+.navigation-wrapper>.right-column {
     display: flex;
     align-items: center;
 }
 
-.navigation>.right-column>.address {
+.navigation-wrapper>.right-column>.address {
     font-family: 'Ubuntu Condensed', sans-serif;
     text-align: right;
 }
 
-.navigation>.right-column>.contact-icon {
+.navigation-wrapper>.right-column>.contact-icon {
     margin-left: 20px;
     font-size: 2em;
 }
 
-.navigation>.right-column>.address a {
+.navigation-wrapper>.right-column>.address a {
     color: #858585;
     text-decoration: none;
     font-size: 0.9em;
     transition: 0.5s;
 }
 
-.navigation>.right-column>.address a:hover {
+.navigation-wrapper>.right-column>.address a:hover {
     color: #cea135;
 }
 
-.navigation>.right-column>.contact-icon a {
+.navigation-wrapper>.right-column>.contact-icon a {
     color: #cbcbcb;
     transition: 0.5s;
 }
 
-.navigation>.right-column>.contact-icon a:hover {
+.navigation-wrapper>.right-column>.contact-icon a:hover {
     color: #cea135;
 }

@@ -1,9 +1,9 @@
 /* Main section */
 
 .motto-heading {
-    background-image: url(../images/burger-and-fries.jpg);
+    background-image: url(../images/background/bg-burger-and-fries.jpg);
     padding: 100px;
-    height: 300px;
+    height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 /* Features Section */
 .features {
     height: 400px;
-    background-image: url(../images/fries-multiply-bg.jpg);
+    background-image: url(../images/logos/fries-multiply-bg.jpg);
     background-color: #cea135;
     border-top: 10px solid #fff;
     color: #11122b;
@@ -80,4 +80,3 @@
 .features>.column-wrapper>.column :nth-child(3) {
     letter-spacing: 2px;
 }
-
